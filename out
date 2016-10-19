@@ -1,0 +1,43 @@
+sphinx-build -b html -d _build/doctrees   . _build/html
+Running Sphinx v1.4.8
+making output directory...
+WARNING: extension 'recommonmark' has no setup() function; is it really a Sphinx extension module?
+loading pickled environment... not yet created
+Initiated sphinxcontrib-images backend: `sphinxcontrib_images_lightbox2.lightbox2:LightBox2`
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 4 source files that are out of date
+updating environment: 4 added, 0 changed, 0 removed
+reading sources... [ 25%] discussion
+reading sources... [ 50%] example
+reading sources... [ 75%] index
+reading sources... [100%] intro
+
+Copying static files for sphinxcontrib-images...[ 11%] lightbox2/css/lightbox.css
+Copying static files for sphinxcontrib-images...[ 22%] lightbox2/js/jquery-1.11.0.min.js
+Copying static files for sphinxcontrib-images...[ 33%] lightbox2/js/lightbox.min.js
+Copying static files for sphinxcontrib-images...[ 44%] lightbox2-customize/jquery-noconflict.js
+Copying static files for sphinxcontrib-images...[ 55%] lightbox2/js/lightbox.min.map
+Copying static files for sphinxcontrib-images...[ 66%] lightbox2/img/close.png
+Copying static files for sphinxcontrib-images...[ 77%] lightbox2/img/next.png
+Copying static files for sphinxcontrib-images...[ 88%] lightbox2/img/prev.png
+Copying static files for sphinxcontrib-images...[100%] lightbox2/img/loading.gif
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... /private/tmp/2016-illo-rtd/example.md:: WARNING: document isn't included in any toctree
+done
+preparing documents... done
+writing output... [ 25%] discussion
+writing output... [ 50%] example
+writing output... [ 75%] index
+writing output... [100%] intro
+
+generating indices... genindex
+writing additional pages... search
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en) ... done
+dumping object inventory... done
+build succeeded, 2 warnings.
+
+Build finished. The HTML pages are in _build/html.
